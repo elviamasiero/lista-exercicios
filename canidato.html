@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var usuario = [
+            { 
+                nome      : 'Diego',
+                habilidades: ['Javascript' , 'ReactJs', 'Redux']
+            },
+            {
+                nome: 'Gabriel',
+                habilidades: ['VueJs' , 'Ruby on Rails' , 'Elixir']
+            }
+           
+        ];
+
+        funcion candidato(usuario)
+         {
+            for (var value of array){
+                console.log('O' , value.nome, 'possui as habilidades: ' , value.habilidades.join(' , '));
+            }
+        }
+        candidato(usuario);
+
+    </script>
+</body>
+</html>
